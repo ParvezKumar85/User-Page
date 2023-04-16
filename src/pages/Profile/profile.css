@@ -1,0 +1,113 @@
+.profilemaindiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.div-profile-1 {
+  min-width: 50%;
+  background: #ff5454d2;
+  display: flex;
+  align-items: center;
+  max-width: 60%;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px !important;
+  margin: 30px 10px 30px 10px;
+}
+
+.profile-div-2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+
+.profile-div-2 > img {
+  padding: 30px;
+  width: 200px;
+  height: 200px;
+  /* width: 50%; */
+  border-radius: 100px;
+}
+
+.profile-div-2 > label {
+  position: absolute;
+  bottom: 20px;
+  background-color: white;
+  border-radius: 50%;
+  left: 60%;
+  padding: 5px 5px 2px 5px;
+}
+
+.bxs-cloud-upload {
+  position: relative !important;
+  left: 0px !important;
+  top: 0px !important;
+}
+
+#profile {
+  display: none;
+}
+
+.progresscolor {
+  width: 90% !important;
+  margin-bottom: 20px !important;
+}
+
+.barcolorprofile {
+  background-color: skyblue;
+}
+
+.algincenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.alginleft {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.profileupdatebtn {
+  width: 90%;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  background-color: skyblue;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  transition: 0.4s;
+}
+
+.profileupdatebtn:hover {
+  background-color: rgba(135, 207, 235, 0.794);
+  box-shadow: rgba(255, 255, 255, 0.331) 0px 7px 29px 0px;
+}
+
+@media screen and (max-width: 850px) {
+  .div-profile-1 {
+    max-width: 70%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .div-profile-1 {
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .div-profile-1 {
+    max-width: 90%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .div-profile-1 {
+    max-width: 95%;
+  }
+}
